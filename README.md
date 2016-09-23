@@ -6,14 +6,13 @@ This repository contains the codes and data for Topical PMAD Method
 File|Content
 ------------ | -------------
 syn.py | Python script for generating synthetic data
-data.zip | The synthetic data we used in our experiments
+exp-data.zip | The synthetic data we used in our experiments
 others | Java maven project for Topical PMAD method, including implementations of baseline methods used in the experiments
 
 ## PMAD Java Project
 
-The topical PMAD method is a Java maven project. The main algorithms are
-implemented based on mallet (http://mallet.cs.umass.edu). See
-org.pmad.TopicalPMAD and org.pmad.Experiments for details.
+The topical PMAD method is a Java maven project. The main algorithms are implemented based on mallet (http://mallet.cs.umass.edu). See org.pmad.TopicalPMAD and org.pmad.Experiments for details.<br>
+**Important: Add the jars in the lib directory as dependencies to the project's running environment.**
 
 ## Data Format
 
